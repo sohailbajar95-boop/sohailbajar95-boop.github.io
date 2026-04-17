@@ -1,4 +1,106 @@
-HTML
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SSJSS Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #000000, #0f2027, #2c5364);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px 20px;
+      font-size: 28px;
+      font-weight: bold;
+      background: rgba(0,0,0,0.5);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .banner {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.1);
+      margin: 20px;
+      padding: 20px;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      animation: fadeUp 1.5s ease;
+    }
+
+    img {
+      width: 200px;
+      border-radius: 50%;
+      margin-top: 10px;
+    }
+
+    button {
+      padding: 12px 25px;
+      border: none;
+      border-radius: 10px;
+      background: #00ff88;
+      color: black;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 15px;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #00cc66;
+      transform: scale(1.1);
+    }
+
+    footer {
+      margin-top: 30px;
+      padding: 15px;
+      background: rgba(0,0,0,0.5);
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    @keyframes fadeUp {
+      from {opacity: 0; transform: translateY(30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style></head><body>  <!-- 🔥 HEADER -->  <header>
+    Welcome to my website (SSJSS)
+  </header>  <!-- 🎯 BANNER IMAGE -->  <!-- Yaha apni image ka naam likho -->  <img class="banner" src="images/banner.jpg" alt="Banner">  <!-- 👤 ABOUT -->  <div class="card">
+    <h2>About Me</h2>
+    <p>Hello! My name is Sohail. I am learning coding and website development.</p><!-- 📸 PROFILE IMAGE -->
+<img src="images/myphoto.jpg" alt="My Photo">
+
+  </div>  <!-- 🎥 VIDEO SECTION -->  <div class="card">
+    <h2>My YouTube Channel (SSJSS)</h2><!-- YouTube embed -->
+<iframe width="100%" height="200"
+  src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+  frameborder="0" allowfullscreen>
+</iframe>
+
+  </div>  <!-- 🔘 BUTTON -->  <div class="card">
+    <h2>Click Button</h2>
+    <button onclick="showMessage()">Click Me</button>
+  </div>  <!-- 📞 CONTACT -->  <div class="card">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+  </div>  <!-- 🔻 FOOTER -->  <footer>
+    © 2026 SSJSS Website
+  </footer>  <script>
+    function showMessage() {
+      alert("🔥 Welcome to SSJSS Website!");
+    }
+  </script></body>
+</html>HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
